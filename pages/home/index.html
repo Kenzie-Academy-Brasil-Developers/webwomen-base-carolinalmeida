@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/globalStyles.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/jobs.css">
+    <link rel="stylesheet" href="/styles/cadsJobsAdd.css">
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <title>Webwomen</title>
     <meta
@@ -16,8 +18,48 @@
     />
 </head>
 <body>
-    <main></main>
-    <script src="jobsData.js"></script>
-    <script src="index.js"></script>
+    <header>
+
+      <div class="container__menu">
+
+        <img src="/assets/img/logo.svg" alt="Logo">
+        <div class="container__menu--position">
+            <h1>Lugar de mulher é onde ela quiser!</h1>
+
+            <span>Está procurando oportunidades de estágio, emprego ou bolsas de estudo? Ou até mesmo oportunidades para atender eventos de tecnologia no Brasil e ao redor do mundo?
+
+            <b>Confere aqui embaixo o que temos para você!</b>
+            </span>
+    
+      
+            
+            <a href="#jobs">Ir para seção das vagas</a>
+        </div>
+      </div>
+
+    </header>
+
+    <main>
+
+        <div class="container__jobs">
+          <h2 id="jobs">Vagas</h2>
+          <ul class="cardJobs">
+
+
+          </ul>
+        </div>
+
+        <aside>
+          <span> Vagas selecionadas</span>
+
+          <ul class="addJobAll">
+            <p class="title">Você ainda não aplicou para nenhuma vaga</p>
+          </ul>
+        </aside>
+
+    </main>
+    <script src="./jobsData.js"></script>
+    <script src="./index.js"></script>
+ 
 </body>
 </html>

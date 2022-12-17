@@ -7,13 +7,14 @@
   scroll-behavior: smooth;
 }
 
-img {
+/* img {
   max-width: 100%;
-}
+} */
 
 :root {
   --color-brand-1: #6741D9;
   --color-brand-2: #5F3DC4;
+  --color-brand-3: #6741D9;
   --color-grey-1:  #212529;
   --color-grey-2:  #343a40;
   --color-grey-3:  #dee2e6;

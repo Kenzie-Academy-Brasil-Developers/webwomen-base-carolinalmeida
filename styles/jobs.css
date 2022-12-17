@@ -1,0 +1,107 @@
+main{
+    background-color: var(--color-grey-5);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.container__jobs{
+    padding: 43px 0 0 5px;
+
+}
+.cardJobs{
+    list-style: none;
+    padding: 44px 0px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.cardJobs > li{
+
+
+
+    width: 94vw;
+    height: 400px;
+    max-width: 818px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    padding: 20px;
+
+    background-color: var(--color-grey-6);
+    border-radius: 8px;
+}
+
+.cardJobs > li > h2{
+    color: var(--color-grey-1);
+    font-size: var(--text-1);
+    line-height: var(--title-3);
+    
+}
+.cardJobs > li > h3{
+    color: var(--color-grey-2);
+    font-size: var(--text-2);
+    line-height: var(--title-3);
+}
+.cardJobs > li > p{
+
+    height: 30px;
+
+    color: var(--color-grey-2);
+    font-size: var(--text-3);
+    background-color: var(--color-grey-3);
+    line-height: var(--title-4);
+
+    padding: 5px;
+    border-radius: 8px;
+
+}
+
+.informationJob{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.informationJob > span{
+    font-size: var(--text-3);
+    line-height: var(--title-4);
+
+}
+
+
+.addJob{
+    
+    width: 80vw;
+    height: 40px;
+
+    font-weight: 500;
+    font-size: var(--text-1) ;
+    line-height: var(--title-4);
+    color: var(--color-grey-6);
+    
+
+    background-color: var(--color-brand-3);
+    border: 0px;
+    border-radius: 8px;
+
+    margin: 0 0 0 16px;
+}
+@media(min-width: 769px){
+    main{
+        flex-direction: row;
+    }
+    .cardJobs > li{
+        width: 80%;
+    }
+    .addJob{
+        width: 100px;
+        margin: 0 0 0 0;
+    }
+}
