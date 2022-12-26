@@ -25,12 +25,11 @@ function cardsJob(){
            <span>${job.enterprise}</span>
            <span>${job.location}</span>
          </div>
-
          <h3>${job.descrition}</h3>
-
+        <div class="container__button-add">
         <p>${job.modalities[0]}</p>
         <button class="addJob" id=${job.id}>Candidatar</button>
-
+        </div>
        </li>
 
         `)
